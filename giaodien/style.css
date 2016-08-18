@@ -1,0 +1,480 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0px; margin-left:0px; padding:0px;}
+body {font-family:Arial, Helvetica, sans-serif;	font-size:12px;	text-align:justify;}
+/*ul {list-style-type:none; margin-top:5px; margin-left:0px;}
+ul li {text-align:justify; display:block; padding-left:12px; line-height:20px; background:url(images/icon.gif) no-repeat left 6px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+ul li a{color:#153f9f; text-decoration:none; font-size:12px;}
+ul li a:hover{text-decoration:none; color:#FF0000; font-size:12px;}*/
+
+a {color:#000000; text-decoration: none;}
+a:hover {text-decoration:underline; color:#fd0283;}
+img {border: none;}
+p {font:Arial, Helvetica, sans-serif; font-size:12px; text-align:justify; line-height:18px; padding-bottom:5px;}
+/* Menu Top */
+.menu_content {height:32px; float:left;}
+.menu_content ul{list-style: none; padding: 0; margin: 0; font-size: 12px; font-weight:bold; font-family:Tahoma;}
+.menu_content ul li {background-image: none; padding-left: 0px; padding-right: 0px; float: left; margin: 0; font-size: 12px;	line-height: 32px !important; line-height: 32px; white-space: nowrap; font-family:Tahoma;}
+.menu_content ul li a{display: block; padding-left: 9px; padding-right: 9px; text-decoration: none; color:#000000; margin-bottom:0px !important;}
+.menu_content ul li a:hover {color:#ffffff;}
+/*Tab*/
+.menu_tab {height:32px; font-family:Tahoma; color:#fd0283;}
+.one_tab {background:url('../hinhanh_flash/dungchung/mntop-bg-center-over.jpg') repeat-x scroll center bottom; float:left; height:32px; font-family:Tahoma;}
+.one_tab_left {
+	background:url('../hinhanh_flash/dungchung/mntop-l-over.jpg') no-repeat;
+	height:32px;
+	width:9px;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_text {
+	color:#fd0283;
+	padding-top:8px;
+	text-align:center;
+	padding-left:1px;
+	padding-right:1px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_text a {
+	color:#fd0283;
+	text-decoration:none;
+}
+.one_tab_text a:hover {
+	color:#fd0283;
+	text-decoration:none;
+}
+.one_tab_right {
+	background:url('../hinhanh_flash/dungchung/mntop-r-over.jpg') no-repeat scroll left bottom;
+	height:32px;
+	width:9px;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_02 {
+	background:url('../hinhanh_flash/dungchung/mn-bg-top.jpg') repeat-x scroll center bottom;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_left_02 {
+	background:url(images/mntop-l.jpg) no-repeat;
+	height:32px;
+	width:9px;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_text_02 {
+	color:#000000;
+	padding-top:10px;
+	text-align:center;
+	padding-left:1px;
+	padding-right:1px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+	font-family:Tahoma;
+}
+.one_tab_text_02 a {
+	color:#000000;
+	text-decoration:none;
+}
+.one_tab_text_02 a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+.one_tab_right_02 {
+	background:url('../hinhanh_flash/dungchung/mntop-r.jpg') no-repeat scroll left bottom;
+	height:32px;
+	width:9px;
+	float:left;
+	font-family:Tahoma;
+}
+/*Tim kiem*/
+#search_boder {
+	border-left:1px #f90986 solid;
+	border-right:1px #f90986 solid;
+	background:url('../hinhanh_flash/dungchung/bg-tkiem.jpg');
+	height:36px;
+}
+#search_boder .date_time{
+	float:left;
+	text-align:left;
+	padding-left:10px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-right:110px;
+}
+#search_boder .date_time .time{
+	color:#FFFFFF;
+	padding-left:8px;
+}
+#search_boder .form{
+	float:right;
+}
+/*Noi dung giua*/
+.boder_center {
+	border-left:1px #f90986 solid;
+	border-right:1px #f90986 solid;
+	background:url('../hinhanh_flash/dungchung/bg_bottom.jpg');
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+/* CSS Menu Left */
+#menu_left {
+	text-align:left;
+	float:left;
+	width:180px;
+	clear:both;
+}
+#menu_left .menu_text {
+	color:#000000;
+	border-bottom:1px #f79bbf solid;
+	border-top:1px #ffffff solid;
+	border-left:1px #ff0084 solid;
+	border-right:1px #ff0084 solid;
+	background:url('../hinhanh_flash/dungchung/iconmn.jpg');
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:#ffe0f2;
+	display: block;
+	margin:0px;
+	padding:0px;
+}
+#menu_left .text{
+	color:#000000;
+	text-decoration: none;
+	display: block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:12px;
+	padding-right:5px;
+	text-align:left;
+}
+#menu_left .text a {
+	color:#000000;
+	text-decoration: none;
+	display: block;
+}
+#menu_left .text a:hover {
+	text-decoration: none;
+	color:#fb0282;
+}
+/* Right */
+.boder {
+	border:1px #fb0282 solid;
+	width:178px;
+	background:#FFFFFF;
+}
+#td {
+	background:url('../hinhanh_flash/dungchung/bg-td_right.jpg');
+	height:26px;
+	width:180px;
+}
+#td .td_text {
+	font-weight:bold;
+	padding-left:8px;
+	padding-top:5px;
+	font-family:Tahoma;
+	text-align:left;
+}
+#td_l {
+	background:url('../hinhanh_flash/dungchung/bg-td_left.jpg');
+	height:26px;
+	width:180px;
+}
+#td_l .td_text_l {
+	font-weight:bold;
+	padding-left:8px;
+	padding-top:5px;
+	font-family:Tahoma;
+}
+.noidung {
+	padding:4px;
+}
+.so_luong{
+	font-weight:bold;
+	color:#fb0282;
+}
+.thongke {
+	font-weight:bold;
+	padding:5px;
+	line-height:18px;
+	text-align:left;
+	margin-left:15px;
+}
+.thongke_number {
+	padding-left:8px;
+	color:#fb0282;
+	font-weight:bold;
+}
+/*Tin tuc*/
+.news_text {
+	padding:4px;
+	line-height:18px;
+	text-align:justify;
+	color:#000000;
+}
+.news_text a{
+	padding-left:5px;
+	color:#333333;
+	text-align:justify;
+}
+.news_text a:hover{
+	text-decoration:underline;
+	color:#fb0282;
+}
+/*Footer*/
+.mn_footer {
+	color: #000000;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+}
+.mn_footer a {
+	padding-left:10px;
+	padding-right:10px;
+	color:#000000;
+}
+.mn_footer a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.copyright {
+	text-align:left;
+	line-height:18px;
+	padding-top:8px;
+}
+/*Tab2*/
+.menu_tab2 {
+	height:26px;
+}
+.one_tab2 {
+	background:url('../hinhanh_flash/dungchung/td_c_c.jpg') repeat-x scroll center bottom;
+	float:left;
+}
+.one_tab_left2 {
+	background:url('../hinhanh_flash/dungchung/td_c_l.jpg') no-repeat;
+	height:26px;
+	width:5px;
+	float:left;}
+.one_tab_text2 {
+	color:#ffffff;
+	padding-top:5px;
+	text-align:center;
+	padding-left:8px;
+	padding-right:8px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+.one_tab_text2 a {
+	color:#ffffff;
+	text-decoration:none;
+}
+.one_tab_text2 a:hover {
+	color: #ffffff;
+	text-decoration:none;
+}
+.one_tab_right2 {
+	background:url('../hinhanh_flash/dungchung/td_c_r.jpg') no-repeat scroll left bottom;
+	height:26px;
+	width:7px;
+	float:left;
+}
+.one_tab_022 {
+	background:url('../hinhanh_flash/dungchung/td-c-bg.jpg') repeat-x scroll center bottom;
+	float:left;
+}
+.one_tab_left_022 {
+	background:url('../hinhanh_flash/dungchung/td-c-l1.jpg') no-repeat;
+	height:26px;
+	width:5px;
+	float:left;
+}
+.one_tab_text_022 {
+	color:#000000;
+	padding-top:5px;
+	text-align:center;
+	padding-left:8px;
+	padding-right:8px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+.one_tab_text_022 a {
+	color:#000000;
+	text-decoration:none;
+}
+.one_tab_text_022 a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+.one_tab_right_022 {
+	background:url('../hinhanh_flash/dungchung/td-c-r1.jpg') no-repeat scroll left bottom;
+	height:26px;
+	width:7px;
+	float:left;
+}
+/*San Pham*/
+#sp {
+	width:160px;
+	padding:2px 18px 2px 18px;
+	float:left;
+	line-height:18px;
+	text-align:center;
+}
+#sp .sp_boder{
+	border:1px #cccccc dotted;
+	margin-bottom:5px;
+}
+#sp .gia_sp{
+	color:#ff0084;
+}
+#sp_other {
+	width:160px;
+	padding:16px;
+	float:left;
+	line-height:18px;
+	text-align:center;
+}
+#sp_other .sp_boder{
+	border:1px #cccccc dotted;
+	margin-bottom:5px;
+}
+#sp_other .gia_sp{
+	color:#ff0084;
+}
+#news {
+	margin-top:5px;
+}
+#news .td_news {
+	clear:both;
+	color:#027cc5;
+	font-weight:bold;
+	text-align:left;
+}
+#news .td_news a{
+	color:#027cc5;
+	text-decoration:none;
+}
+#news .td_news a:hover{
+	color:#027cc5;
+	text-decoration: underline;
+}
+#news .date_time {
+	background:url(images/date_time.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	clear:both;
+}
+#news .date_time .date_time_text{
+	padding-left:15px;
+	font-size:11px;
+	font-style: italic;
+	color:#999999;
+	text-align:left;
+}
+#news .news_content {
+	padding-top:5px;
+	text-align:justify;
+	line-height:18px;
+}
+#news .news_content .news_img {
+	float:left;
+	margin-right:5px;
+	margin-top:3px;
+	border:1px #cccccc dotted;
+}
+#news .more {
+	float:right;
+	clear:both;
+	padding-bottom:5px;
+}
+#news .more .more_text {
+	text-align:right;
+	color:#ff0084;
+}
+#news .more .more_text a{
+	color:#ff0084;
+	text-decoration:none;
+}
+#news .more .more_text a:hover{
+	color: #ff0084;
+	text-decoration: underline;
+}
+/*San pham  ban chay*/
+.sp_bc {
+	clear:both;
+}
+.ten_sp {
+	clear:both;
+	color:#000000;
+	text-align:center;
+	line-height:18px;
+	padding-bottom:8px;
+	padding-top:5px;
+}
+.ten_sp a {
+	color:#000000;
+}
+.ten_sp a:hover {
+	color:#ff0084;
+	text-decoration:underline;
+}
+.sanpham_banchay {margin:4px; border:1px #CCCCCC solid;}
+.sanpham_banchay_text {padding:4px; line-height:18px; font-weight:bold; background:#ffffff;}
+.menu_tab_detail {height:26px;}
+.one_tab_detail {background:url('../hinhanh_flash/dungchung/td_c_c.jpg') repeat-x scroll center bottom; float:left;}
+.one_tab_detail_left {background:url('../hinhanh_flash/dungchung/td_c_l.jpg') no-repeat; height:26px; width:5px; float:left;}
+.one_tab_detail_text {color:#ffffff; padding-top:5px; text-align:left; padding-left:8px; padding-right:8px; font-size:12px; font-weight:bold;  float:left; width:560px;}
+.one_tab_detail_text a {color:#ffffff; text-decoration:none;}
+.one_tab_detail_text a:hover {color: #ffffff; text-decoration:none;}
+.one_tab_detail_right {background:url('../hinhanh_flash/dungchung/td_c_r.jpg') no-repeat scroll left bottom; height:26px; width:7px; float:left;}
+.pages {padding-top: 10px; clear:both;}
+.pages_text {padding:4px; color:#333333; text-align:center;}
+.pages_text a {padding-left:2px; padding-right:2px; color:#153f9f;}
+.pages_text a:hover {color:#FF0000; text-decoration:underline;}
+.border_bottom {border-bottom:1px #CCCCCC dotted; clear:both; padding-top:5px; padding-bottom:5px;}
+.other_news {padding-bottom:10px; padding-left:0px;}
+.other_news ul {list-style-type:none; margin-top:5px; margin-left:0px;}
+.other_news ul li {text-align:justify; display:block; padding-left:12px; line-height:20px; background:url('../hinhanh_flash/dungchung/icon.gif') no-repeat left 6px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.other_news ul li a{color:#153f9f; text-decoration:none; font-size:12px;}
+.other_news ul li a:hover{text-decoration:none; color:#FF0000; font-size:12px;}
+.cart_table{font-family:Arial, Helvetica, sans-serif; font-size:11px; line-height:18px; text-align:justify;}
+.cart_table td{padding:3px;}
+.cart_table tr.tr_0:hover {background-color: #FFE0F2;}
+.thong_so {padding:5px;}
+.thong_so_kt_text {float:left; font-weight:bold; padding-left:5px;}
+.thong_so_left {border-bottom:1px #ffffff solid; border-right:1px #ffffff solid; font-weight:bold; width:auto; line-height:25px;}
+.thong_so_right {border-bottom:1px #ffffff solid; width:auto; line-height:25px;}
+#button_red{pading-top:5px; padding-left:6px;}
+
+#button_red .one_button{margin-right:5px; height:18px; background-color:#F80185; float:left;}
+#button_red .one_button .button_text{color: #FFFFFF; padding-left:4px; padding-right:4px;}
+#button_red .one_button .button_text a{color: #FFFFFF; text-decoration:none}
+#button_red .one_button .button_text a:hover{color: #FFFFFF; text-decoration:none}
+.content_center_heading {color:#153f9f; text-decoration: none; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; padding-top:5px; padding-bottom:5px; padding-left:5px;}
+.cssDefaultProductOverview, .cssDefaultProductOverview p{font-family: Tahoma, Verdana, Arial; font-size: 11px; font-weight: normal;	color: #000000; text-decoration: none;}
+.cssDefaultProductOverview td{border-bottom: solid 1px #cccccc; padding-left: 2px; padding-right: 2px; padding-top: 5px; padding-bottom: 5px; vertical-align: top;}
+
+.search_result_title {font-weight:bold; color: #FF0000; text-align:left; padding-bottom:5px; padding-top:5px;}
+.search_result_title a{font-weight:bold; color: #153f9f; text-decoration:none}
+.search_result_title a:hover{font-weight:bold; color: #FF0000; text-decoration:none}
+
+div.cao_3_px
+{
+	height:3px;
+	width:5px;
+	overflow:hidden;
+	border:0px solid #999999;
+}
+input.nut_abc
+{
+	background:#cccccc;
+	color:black;
+	font-weight:bold;
+	border:1px solid #89887e;
+}
+

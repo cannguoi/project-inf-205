@@ -1,0 +1,204 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+a.sua_xoa:link { font-size: 16px; text-decoration: none;  color: #FF00FF; font-weight: bold}
+a.sua_xoa:visited { font-size: 16px; color: #FF00FF; text-decoration: none; font-weight: bold}
+a.sua_xoa:hover { font-size: 16px; text-decoration: underline; color: #FF8C00; font-weight: bold; font-style: normal; }
+
+
+a.sua_xoa_1:link { font-size: 30px; text-decoration: none;  color: black; font-weight: bold}
+a.sua_xoa_1:visited { font-size: 30px; color: black; text-decoration: none; font-weight: bold}
+a.sua_xoa_1:hover { font-size: 30px; text-decoration: underline; color: #FF8C00; font-weight: bold; font-style: normal; }
+
+a.kydanh:link { font-size: 16px; text-decoration: none;  color: red; font-weight: bold}
+a.kydanh:visited { font-size: 16px; color: red; text-decoration: none; font-weight: bold}
+a.kydanh:hover { font-size: 16px; text-decoration: underline; color: #FF8C00; font-weight: bold; font-style: normal; }
+
+
+a.phantrang:link { font-size: 20px; text-decoration: none;  color: #000080; font-weight: bold}
+a.phantrang:visited { font-size: 20px; color: #000080; text-decoration: none; font-weight: bold}
+a.phantrang:hover { font-size: 20px; text-decoration: underline; color: #DAA520; font-weight: bold; font-style: normal; }
+
+
+tr.mau_dong:hover{
+	background: #e5fcf6;
+}
+input
+{
+	border: 1px solid #cdcdcd;
+}
+
+input.nut_chapnhan
+{
+	width:220px;
+	background:#f9f8dd;
+	color:red;
+	font-weight:bold;
+	height:35px;
+	font-size:20px;
+	border: 1px solid #cdcdcd
+}
+span.abc_777
+{
+	font-weight:bold;
+	color:#FFFFFF;
+}
+a.lienket_phanthan:link { font-size: 25px; text-decoration: none;  color: red; font-weight: bold}
+a.lienket_phanthan:visited { font-size: 25px; color: red; text-decoration: none; font-weight: bold}
+a.lienket_phanthan:hover { font-size: 25px; text-decoration: underline; color: #6b8e23; font-weight: bold; font-style: normal; }
+
+a.xuat_menu_quanly:link { font-size: 16px; text-decoration: none;  color: #8B0000; font-weight: bold}
+a.xuat_menu_quanly:visited { font-size: 16px; color: #8B0000; text-decoration: none; font-weight: bold}
+a.xuat_menu_quanly:hover { font-size: 16px; text-decoration: underline; color: red; font-weight: bold; font-style: normal; }
+
+
+.table_1px
+{
+    border-color: #600;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+}
+
+.table_1px td
+{
+    border-color: #600;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    background-color: #FFC;
+}
+.table_1px_001
+{
+    border-color: #600;
+    border-width: 0 0 1px 1px;
+    border-style: solid;
+}
+
+.table_1px_001 td
+{
+    border-color: #600;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    background-color: #FFC;
+}
+.span chu_dam
+{
+	font-weight:bold;
+}
+.chu_do
+{
+	color:red;
+}
+.chu_dam
+{
+	font-weight:bold;
+}
+form {
+  margin: 0px 0px 0px 0pxs;
+}
+.rong_125px
+{
+	width:125px;
+}
+.rong_150px
+{
+	width:150px;
+}
+.rong_175px
+{
+	width:175px;
+}
+.rong_200px
+{
+	width:200px;
+}
+.rong_120px
+{
+	width:120px;
+}
+.rong_180px
+{
+	width:180px;
+}
+.rong_250px
+{
+	width:250px;
+}
+.rong_300px
+{
+	width:300px;
+}
+.rong_225px
+{
+	width:225px;
+}
+input.gui
+{
+	color:white;
+	font-weight:bold;
+	background:red;
+}
+div.duong_vien__1
+{
+	width:990px;
+	border:1px solid #999999;
+}
+.cach_trai__5px
+{
+	margin-left:5px;
+}
+.cach_trai__10px
+{
+	margin-left:10px;
+}
+
+table.table__abc
+{
+	border:1px solid #cccccc;
+	border-collapse: collapse;
+	cursor:default;
+}
+table.table__abc td
+{
+	/*vertical-align:top;*/
+	border:1px solid #cccccc;
+	background:#f9f9f9;
+}
+
+table.table__abc tr td.table__abc___tr_td__dau
+{
+	background:#f0f0f0;
+	font-weight:bold;
+	color:#0b55c4
+}
+#table__abc___tr_td
+{
+	background:#white;
+}
+#table__abc___tr_td_hover
+{
+	background:#ffffdd;
+}
+input.nut_abc
+{
+	background:#cccccc;
+	color:black;
+	font-weight:bold;
+	border:1px solid #89887e;
+}
+
+a.thua__link_10:link { font-size: 14px; text-decoration: none;  color: #0b55c4; }
+a.thua__link_10:visited { font-size: 14px; color: #0b55c4; text-decoration: none; }
+a.thua__link_10:hover { font-size: 14px; text-decoration: none; color: #084095;  font-style: normal; }
+a.nut_dong_1
+{
+	float:right;
+	margin-right:5px;
+	color:#0b55c4;
+	text-decoration: none;
+}
